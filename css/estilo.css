@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------------Cabeçalho-------------------*/
+
+nav {
+    text-align: right;
+}
+
+.btn-google-itens {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.2rem 0.5rem;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.btn-google-itens a {
+    text-decoration: none;
+    color: black;
+}
+
+.apps {
+    width: 30px;
+    height: 30px;
+    width: auto;
+    margin: 1rem 0.4rem;
+}
+
+.gmail {
+    margin-right: 0.3rem;
+}
+
+.apps img {
+    margin-top: 0.19rem;
+    width: 24px;
+    opacity: 0.6;
+}
+
+.login {
+    margin-right: 2rem;
+    background-color: #4684EE;
+    width: 5.9rem;
+    height: 1.9rem;
+    text-align: center;
+}
+
+.login a {
+    margin-top: 0.25rem;
+    padding: 0.2rem;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+/*-------------barra de pesquisa---------*/
+.search {
+    height: 408px;
+}
+
+/*---------Logo------------*/
+
+.logo {
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------Pesquisa--------*/
+
+.search-box {
+    border-radius: 30px;
+    border: 0.5px solid lightgrey;
+    width: min(90vw, 580px);
+    padding-top: 0.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.search-box:hover {
+    box-shadow: 0 0 0.3em lightgray;
+}
+
+
+.search-box input {
+    width: min(60vw, 440px);
+    height: 15px;
+    margin: 0 0.7rem 1rem 0.4rem;
+    min-width: 40px;
+    vertical-align: middle;
+    border: hidden;
+    font-size: 15px;
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.search-itens {
+    display: inline-block;
+}
+
+.lupa {
+    
+    opacity: 0.5;
+} 
+
+.keyboard {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+}
+
+.mic-google {
+    display: inline;
+    vertical-align: sub;
+}
+
+.logo img {
+    width: 270px;
+}
+
+/*-------------Botões inferiores----------*/
+
+.search-down {
+    margin-top: 1.5rem;
+    
+    text-align: center;
+}
+
+.btn-down {
+    display: inline-block;
+    width: 8rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background: #F8F9FA;
+    font-family: "Arial", sans-serif;
+}
+
+.btn-down:hover {
+    box-shadow: 0 0 0.2em gray;
+}
+
+.btn-down a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 14px;
+    color: #000;
+}
+
+.search-google {
+    margin-right: 1.5rem;
+}
+
+/*------------- Rodapé ------------*/
+
+footer {
+    background-color: #F2F2F2;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+.country {
+    height: 2.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.country p {
+    line-height: 3.5rem;
+    margin-left: 1.2rem;
+    display: inline-block;
+}
+
+.information-footer {
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    height: 1.2rem;
+    align-items: center;
+}
+
+.f-left {
+
+}
+
+.f-right {
+    
+}
+
+.information a {
+    text-decoration: none;
+    color: #666;
+}
+
+.information-left {
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-right {
+    width: 450px;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.information-left li {
+    margin-right: 2rem;
+}
+
+.information-right li {
+    margin-left: 2.5rem;
+}
