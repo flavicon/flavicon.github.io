@@ -1,0 +1,71 @@
+.carousel-item img {
+    width: 250px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-item {
+    background-color: grey;
+}
+
+.lancamentos-title {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.card-body a {
+    width: 100%;
+}
+
+.produts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.footer-page {
+    background-color: rgb(104, 104, 104);
+    
+}
+
+.cards-footer {
+    padding: 2rem;
+    display: flex;    
+    justify-content: space-between;
+    margin-top: 8rem;
+    width: 50vw;
+    flex: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-footer ul {
+    margin-left: -2rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+.contatos{
+    padding-left: 5rem;
+    border-left: 1px solid black;
+}
+
+.column-footer li {
+    margin-bottom: 0.5rem;
+}
+
+.column-footer li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
