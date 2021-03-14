@@ -13,7 +13,7 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
@@ -83,11 +83,17 @@ h3 > span {
     opacity: 0.8;
 }
 
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
 @media (min-width: 450px){
     .card {
         display: grid;
 
-        background: #fff url(/images/bg-pattern-card.svg) no-repeat;
+        background: #fff url(images/bg-pattern-card.svg) no-repeat;
         justify-content: center;
         align-items: center;
         border-radius: 1.25rem;
@@ -113,7 +119,7 @@ h3 > span {
     .card {
         display: grid;
 
-        background: #fff url(/images/bg-pattern-card.svg) no-repeat;
+        background: #fff url(images/bg-pattern-card.svg) no-repeat;
         justify-content: center;
         align-items: center;
         border-radius: 1.25rem;
